@@ -11,16 +11,73 @@
     <LinearLayout
         android:background="#181857"
         android:layout_weight="1"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp">
+        <TextView
+            android:gravity="center"
+            android:background="#B3A9A7"
+            android:layout_weight="1"
+            android:text="A"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:gravity="center"
+            android:background="#636270"
+            android:layout_weight="1"
+            android:text="B"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:gravity="center"
+            android:background="#B3C196"
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:gravity="center"
+            android:background="#CC3AB3"
+            android:layout_weight="1"
+            android:text="D"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
 
     </LinearLayout>
     <LinearLayout
         android:background="#ADB883"
         android:layout_weight="1"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="0dp">
-
+        <TextView
+            android:gravity="center"
+            android:background="#B3A9A7"
+            android:layout_weight="1"
+            android:text="A"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:gravity="center"
+            android:background="#636270"
+            android:layout_weight="1"
+            android:text="B"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:gravity="center"
+            android:background="#B3C196"
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:gravity="center"
+            android:background="#CC3AB3"
+            android:layout_weight="1"
+            android:text="D"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
     </LinearLayout>
 
 
